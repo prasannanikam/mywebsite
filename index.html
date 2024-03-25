@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords"
+    content="Prasanna Dattatray Nikam, portfolio, computer science, web development, machine learning, Python, Django, Flask, JavaScript, HTML, CSS, C++, SQL" />
+  <meta name="description" content="Welcome to Prasanna's Portfolio. Computer Science graduate with expertise in web development and machine learning" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon -->
+  <link id='favicon' rel="shortcut icon" href="./assets/images/png.png" type="image/x-png">
+  <style>
+    @media (max-width: 450px) {
+      .home .image img {
+        margin-top: -3rem; /* Adjust this value as needed */
+      }
+    }
+  </style>
+    <style>
+      .skills {
+        background: url('C:/Users/prasa/Desktop/Portfolio/assets/images/skills.jpg') center/cover no-repeat;
+        /* Additional background properties can be added here */
+        color: white; /* Adjust text color to make it readable on the background image */
+        padding: 50px; /* Add padding to the content for better visibility */
+      }
+  
+      .bar {
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for the bars */
+        margin: 10px 0;
+        padding: 10px;
+      }
+  
+      .bar .info {
+        display: flex;
+        align-items: center;
+      }
+  
+      .bar img {
+        width: 30px; /* Adjust the width of the images as needed */
+        margin-right: 10px;
+      }
+      /* Add other styles as needed */
+    </style>
+  <title>Portfolio | Prasanna Nikam</title>
+</head>
+
+<body oncontextmenu="return false">
+
+  <!-- pre loader -->
+
+
+  <!-- navbar starts -->
+  <header>
+    <a href="/" class="logo"><img class="logoIcon" src="./assets/images/Prasanna logo.png" height="40px" width="200"></a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#internships">internships</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- navbar ends -->
+
+
+  <!-- hero section starts -->
+  <section class="home" id="home">
+    <!-- <div id="particles-js"></div> -->
+
+    <div class="content">
+      <h2>Hi There,<br /> I'm Prasanna <span>Nikam</span></h2>
+      <p>Computer Science graduate with expertise in web development and machine learning</p>
+      <a href="#about" class="btn"><span>About Me</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/prasanna-nikam-222912187/"
+              target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a class="github" aria-label="GitHub" href="https://github.com/prasannanikam" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="image">
+      <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+    </div>
+  </section>
+
+  <!-- hero section ends -->
+
+
+  <!-- about section starts -->
+  <style>
+    /* Add this style block in your HTML file or link it from an external stylesheet */
+    .about {
+      background-image: url('./assets/images/skills.jpg');  /* Replace 'path/to/your/background-image.jpg' with the actual path to your image */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #fff; /* Set the text color to contrast with the background */
+      padding: 100px 0; /* Adjust the padding as needed */
+    }
+  
+    /* Optionally, you can add styles to adjust the appearance of the content within the section */
+    .about .row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    .about .content {
+      max-width: 600px; /* Adjust the maximum width of the content as needed */
+    }
+  </style>
+  <section class="about" id="about">
+    
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+    <div class="row">
+
+      <div class="image">
+        <!-- <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt=""> -->
+      </div>
+      <div class="content">
+        <h3 style="color: black;">I'm Prasanna</h3>
+        <span class="tag">Computer Science graduate</span>
+
+        <p style="color: black;">I am a Computer Science graduate based in Lonere, Maharashtra, India. 
+           I have expertise in web development using technologies like Python (Django, Flask), JavaScript, HTML, and CSS. Additionally,
+           I am proficient in machine learning with skills in Python (NumPy, Pandas, Scikit-learn) and SQL.
+        </p>
+
+        <div class="box-container">
+          <!-- <div class="box">
+              <p><span> age: </span> 23</p>
+              <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+            </div> -->
+          <div class="box" style="color: black;">
+            <p><span> email : </span> prasannanikam1@gmail.com</p>
+            <p><span>phone :</span> (+91)7038117235</p>
+            <p><span> place : </span> Hyderabad, India - 500016</p>
+          </div>
+        </div>
+
+        <div class="resumebtn">
+          <a href="https://github.com/prasannanikam/My_Resume/blob/main/Prasanna_Datascince_pdf.pdf" target="_blank" class="btn"><span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- about section ends -->
+
+  <!-- education section starts -->
+  <style>
+    .education {
+      background: url('C:/Users/prasa/Desktop/Portfolio/assets/images/bged.png') center/cover no-repeat;
+      /* Additional background properties can be added here */
+      color: rgb(16, 15, 15); /* Adjust text color to make it readable on the background image */
+      padding: 50px; /* Add padding to the content for better visibility */
+    }
+    /* Add other styles as needed */
+  </style>
+  <title>Your Page Title</title>
+</head>
+<body>
+  <section class="education" id="education">
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <div class="box-container">
+      <div class="box">
+        <div class="content">
+          <h3>Bachelor of Technology in Computer Science</h3>
+          <p>DBATU University</p>
+          <p>Coursework: Database Management System, Algorithms and Data Structure, Web Development, Machine Learning, Python Programming, Artificial Intelligence, Big Data Analytics</p>
+          <p>GPA: 8.32/10.0</p>
+          <p>August 2023</p>
+          <p>Satara, MH, India</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="content">
+          <h3>HSC</h3>
+          <p>Kisanveer Mahavidyalaya, Wai</p>
+          <p>Janata Shikshan Sanstha, Wai</p>
+          <p>June 2019</p>
+          <p>Satara, MH, India</p>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="content">
+          <h3>SSC</h3>
+          <p>Janata Shikshan Sanstha, Wai</p>
+          <p>June 2017</p>
+          <p>Satara, MH, India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- education section ends -->
+
+ <!-- skills section starts -->
+<section class="skills" id="skills">
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+  <div class="container">
+    <div class="row" id="skillsContainer">
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/python.png" alt="Python Logo">
+          <span>Python</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/Numpy.png" alt="NumPy Logo">
+          <span>NumPy</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/pandas.png" alt="Pandas Logo">
+          <span>Pandas</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/scikit.png" alt="Scikit-learn Logo">
+          <span>Scikit-learn</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/mysql.png" alt="SQL Logo">
+          <span>SQL</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/tensorflow.png" alt="Tensorflow Logo">
+          <span>Tensorflow</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/seaborn.png" alt="seaborn Logo">
+          <span>seaborn</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/django.png" alt="django Logo">
+          <span>Django</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/flask.png" alt="flask Logo">
+          <span>Flask</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/html.png" alt="html Logo">
+          <span>HTML</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/Css.png" alt="css Logo">
+          <span>css</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/bootstrap.png" alt="bootstrap Logo">
+          <span>Bootstrap</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/js.png" alt="JavaScript Logo">
+          <span>JavaScript</span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <img src="./assets/images/Skills_img/CPP.png" alt="C++ Logo">
+          <span>C++</span>
+        </div>
+      </div>
+      <!-- Add similar blocks for other skills with appropriate logos -->
+    </div>
+  </div>
+</section>
+<!-- skills section ends -->
+
+  <!-- internships section starts -->
+  <section class="internships" id="internships">
+
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Internships </h2>
+
+    <div class="timeline">
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>MH 11 Coders</h2>
+          </div>
+          <div class="desc">
+            <h3>Python Intern</h3>
+            <p>Wrote, tested, and debugged Python code for software applications. Developed web applications using Python frameworks like Django. Designed and maintained database schemas, wrote SQL queries. Created and maintained documentations for code and development processes. Worked with a team member, participated in agile processes, and contributed to code reviews.</p>
+            <p>Aug ‘22 – Jan ‘23</p>
+            <p>Satara, MH, India</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Ai Variant</h2>
+          </div>
+          <div class="desc">
+            <h3>Data Science Intern</h3>
+            <p>Completed impactful internship at AI Variant, specializing in projects like Resume Classification, applying NLP for enhanced document categorization. Contributed to Energy Production Prediction, utilizing Python (Scikit-learn) and SQL for data analysis, resulting in improved forecasting accuracy. Analyzed diverse datasets using Python and SQL, collaborating seamlessly with cross-functional teams to extract valuable insights. Integrated machine learning models into practical solutions, emphasizing strong communication and teamwork.</p>
+            <p>Aug ‘22 – Jan ‘23</p>
+            <p>Satara, MH, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- internships section ends -->
+
+  <!-- contact section starts -->
+  <section class="contact" id="contact">
+
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+          <img draggable="false" src="./assets/images/contact1.png" alt="">
+        </div>
+        <form id="contact-form" action="" method="post">
+          <div class="form-group">
+            <div class="field">
+              <input type="text" name="name" placeholder="Name" required>
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <input type="email" name="email" placeholder="Email" required>
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <input type="tel" name="phone" placeholder="Phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="message">
+              <textarea placeholder="Message" name="message" required></textarea>
+              <i class="fas fa-comment-dots"></i>
+            </div>
+          </div>
+          <div class="button-area">
+            <button type="submit">
+              Submit <i class="fa fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends -->
+
+
+  <!-- footer section starts -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Prasanna's Portfolio</h3>
+        <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br /> <br /> Keep Rising
+          🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+        <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+        <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+        <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+        <a href="#internships"><i class="fas fa-chevron-circle-right"></i> internships</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <p> <i class="fas fa-phone"></i>+91 7038117235</p>
+        <p> <i class="fas fa-envelope"></i>prasannanikam1.com</p>
+        <p> <i class="fas fa-map-marked-alt"></i>Hyderabad, India-500016</p>
+        <div class="share">
+
+          <a href="https://www.linkedin.com/in/prasanna-nikam-222912187/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+          <a href="https://github.com/prasannanikam" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+          <a href="mailto:prasannanikam1@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
+        href="www.linkedin.com/in/prasanna-nikam-222912187/"> Prasanna Nikam</a></h1>
+
+  </section>
+  <!-- footer section ends -->
+
+
+  <!-- scroll top btn -->
+  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+  <!-- scroll back to top -->
+
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- typed.js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- particle.js links -->
+  <script src="./assets/js/particles.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+  <!-- vanilla tilt.js links -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- scroll reveal anim -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
